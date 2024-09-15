@@ -1,4 +1,4 @@
-![Logo](https://github.com/AKGanesh/ImageOperations_OpenCV/blob/main/opencv_lady.png)
+![Logo](https://github.com/AKGanesh/ImageOperations/blob/main/opencv_lady.png)
 
 # Operations on an image using OpenCV
 
@@ -32,29 +32,27 @@ The available operations include:
 ## FAQ
 
 #### Whats is OpenCV?
-OpenCV (Open Source Computer Vision Library) is a powerful open-source library for computer vision, machine learning, and image processing. It provides a vast collection of functions and algorithms that can be used to perform various tasks related to images and videos
+- OpenCV (Open Source Computer Vision Library) is a powerful open-source library for computer vision, machine learning, and image processing. It provides a vast collection of functions and algorithms that can be used to perform various tasks related to images and videos
 https://opencv.org/
 
 
 #### What is a this space conversion RGB -> HSG?
-If you're working with images in OpenCV, they are typically represented in RGB format by default. You can check the image's color space using the cv2.cvtColor() function to convert it to another color space like HSV or grayscale.
-
-Converting BGR to HSV can provide advantages in terms of color manipulation, segmentation, human perception, and algorithm optimization. It's a common step in many image processing pipelines, especially when dealing with color-related tasks.
+- If you're working with images in OpenCV, they are typically represented in RGB format by default. You can check the image's color space using the cv2.cvtColor() function to convert it to another color space like HSV or grayscale. Converting BGR to HSV can provide advantages in terms of color manipulation, segmentation, human perception, and algorithm optimization. It's a common step in many image processing pipelines, especially when dealing with color-related tasks.
 
 
 #### What are various operations that can performed?
-Morphological operations are useful for analyzing and modifying image shapes.
-Image masking and segmentation are essential for isolating objects.
-Edge detection helps identify object boundaries.
+- Morphological operations are useful for analyzing and modifying image shapes.
+- Image masking and segmentation are essential for isolating objects.
+- Edge detection helps identify object boundaries.
 
 #### What are Morphological operations?
-Morphological operations are a set of techniques used in image processing to analyze and modify the shape and structure of objects within an image. They involve applying a structuring element (a small matrix) to the image and performing operations based on the interaction between the structuring element and the image pixels. Please refer to Erosion, Dilation, Opening and Closing etc.,
+- Morphological operations are a set of techniques used in image processing to analyze and modify the shape and structure of objects within an image. They involve applying a structuring element (a small matrix) to the image and performing operations based on the interaction between the structuring element and the image pixels. Please refer to Erosion, Dilation, Opening and Closing etc.,
 
 #### What is image masking?
-Image masking is a fundamental technique in image processing that allows you to focus on specific regions of an image and perform operations on those regions independently.
+- Image masking is a fundamental technique in image processing that allows you to focus on specific regions of an image and perform operations on those regions independently.
 
 #### What is GrabCut?
-GrabCut is a powerful interactive segmentation algorithm that can be used to accurately extract objects from images. It's a valuable tool for various computer vision applications.  It combines graph cuts with iterative Gaussian mixture models to achieve accurate foreground-background separation.
+- GrabCut is a powerful interactive segmentation algorithm that can be used to accurately extract objects from images. It's a valuable tool for various computer vision applications.  It combines graph cuts with iterative Gaussian mixture models to achieve accurate foreground-background separation.
 
 ## Acknowledgements
 
